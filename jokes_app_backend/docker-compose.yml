@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  backend: 
+    image: jokes-app-backend
+    container_name: jokes-app-backend
+    ports:
+      - 8000:8000
+    

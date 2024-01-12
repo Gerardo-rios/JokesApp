@@ -1,0 +1,1 @@
+from .json_joke_repository import JsonJokeRepository

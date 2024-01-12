@@ -1,0 +1,10 @@
+.venv/
+.idea/
+localstack-volume/
+__pycache__/
+.json/
+.DS_Store
+htmlcov/
+.coverage
+.env
+*.db

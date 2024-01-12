@@ -1,0 +1,16 @@
+{
+    "jokes": [
+        {
+            "id": "12344",
+            "joke": "Why did the developer break up with the testing framework? It just couldn't handle the commitment to fixing their issues."
+        },
+        {
+            "id": "1A",
+            "joke": "I told my computer a joke about testing, but it didn't laugh. It said it was a serious matter and couldn't find any humor in it."
+        },
+        {
+            "id": "005",
+            "joke": "Testing software is like being a detective - you spend hours looking for clues, and when you finally find the bug, the satisfaction is almost criminal."
+        }
+    ]
+}

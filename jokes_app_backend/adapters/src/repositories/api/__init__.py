@@ -1,0 +1,1 @@
+from .api_joke_repository import ApiJokeRepository

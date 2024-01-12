@@ -1,0 +1,9 @@
+[run]
+source = 
+    app/core
+    app/adapters
+    app/api
+    app/factories
+omit =
+    */__init__.py
+    */tests/*

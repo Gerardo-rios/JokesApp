@@ -1,0 +1,1 @@
+from .joke_use_case_factory import get_joke_repository, get_joke_use_case
