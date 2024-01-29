@@ -1,9 +1,3 @@
-from .src import (
-    JokeBusinessException, 
-    JokeRepositoryException, 
-    GetJokeException,
-    Joke,
-    JokeRepository,
-    GetJoke, 
-    GetJokeResponse
-)
+from .src import (GetJoke, GetJokeException, GetJokeUseCaseResponse, Joke,
+                  JokeBusinessException, JokeRepository,
+                  JokeRepositoryException)

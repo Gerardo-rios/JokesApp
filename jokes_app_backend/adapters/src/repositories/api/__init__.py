@@ -1,1 +1,3 @@
 from .api_joke_repository import ApiJokeRepository
+from .api_manager import ApiManager
+from .api_joke_client import get_joke_from_external_api

@@ -3,5 +3,5 @@ from typing import NamedTuple
 from core.src.models import Joke
 
 
-class GetJokeResponse(NamedTuple):
+class GetJokeUseCaseResponse(NamedTuple):
     joke: Joke

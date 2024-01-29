@@ -1,1 +1,1 @@
-from .get import GetJoke, GetJokeResponse
+from .get import GetJoke, GetJokeUseCaseResponse

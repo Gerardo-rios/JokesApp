@@ -4,10 +4,10 @@ import core
 
 
 async def get_joke(
-    get_joke: core.GetJoke,
+    get_joke_use_case: core.GetJoke,
 ) -> JSONResponse:
     try:
-        return JSONResponse({"data": get_joke()}, status_code=200)
-    except core.GetJokeException as error:                        
+        data = await get_joke_use_case.execute()
+        return JSONResponse({"data": data}, status_code=200)
+    except core.GetJokeException as error:
         return JSONResponse({"error": str(error)}, status_code=500)
-        

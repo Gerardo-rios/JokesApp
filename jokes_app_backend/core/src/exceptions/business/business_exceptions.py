@@ -6,5 +6,6 @@ class BusinessException(Exception):
 class JokeBusinessException(BusinessException):
     """Jokes business exception"""
 
+
 class GetJokeException(BusinessException):
     """Get joke exception"""
